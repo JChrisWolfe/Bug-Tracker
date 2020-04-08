@@ -41,7 +41,9 @@ INSTALLED_APPS = [
     # My Installed Apps
 
     # https://pypi.org/project/django-bootstrap4/
-    'bootstrap4'
+    'bootstrap4',
+    # https://pypi.org/project/django-phone-field/
+    'phone_field',
 ]
 
 MIDDLEWARE = [

@@ -10,4 +10,11 @@ class Bugs(models.Model):
     bug_tester_id = models.IntegerField()
 
 class Projects(models.Model):
-    pass
+    project_id = models.IntegerField(primary_key=True)
+    project_developer_id = models.IntegerField()
+    project_tester_id = models.IntegerField()
+    project_name = models.CharField(max_length=20)
+    project_assign = models.TextField()
+    project_last_date = models.DateField(auto_now=True, auto_now_add=True)
+    project_type = models.CharField(max_length=20)
+    project_description = models.TextField(max_length=3000)
