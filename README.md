@@ -1,3 +1,4 @@
+<!-- https://medium.com/@meakaakka/a-beginners-guide-to-writing-a-kickass-readme-7ac01da88ab3) -->
 ## Bug Tracker Web Application
 This project is a Django style sample of a Bug Tracker System. A Bug Tracker is an application that helps keep tracks of reported software bugs in software, web, mobile, etc. development projects.
 ## Motivation
